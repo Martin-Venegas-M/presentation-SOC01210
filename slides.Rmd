@@ -54,7 +54,6 @@ library(xaringanthemer)
   * Entrevistas Cognitivas
   * Pruebas de Usabilidad
   * Piloto VII EME
-  * Grupos Focales Recolectores (*Interviewer Debriefings*)
   
 --
 
@@ -87,9 +86,12 @@ class: middle
 ---
 ## Encuesta Microemprendimiento
 
-> Encuesta a hogares donde residan microemprendedores que realiza el Instituto Nacional de Estadísticas   
-por solicitud del Ministeriode Economía, Fomento y Turismo. El INE hace esta encusta desde el 2013  
-y se efectúa cada dos años.
+--
+
+### .large[Encuesta a hogares donde residan microemprendedores que  
+realiza el Instituto Nacional de Estadísticas por solicitud del  
+Ministerio de Economía, Fomento y Turismo. El INE hace esta  
+encuesta desde el 2013 y se efectúa cada dos años.]
 ---
 
 ## Encuesta Microemprendimiento
@@ -512,7 +514,8 @@ su forma o contenido
 
 #### Ejemplos de recomendaciones:
 
-> Se recomienda homologar los criterios en el uso de cursivas en las preguntas, dejando su uso exclusivamente para cuando se trate de instrucciones para las y los encuestadores.
+> Se recomienda homologar los criterios en el uso de cursivas en las preguntas, dejando su uso  
+exclusivamente para cuando se trate de instrucciones para las y los encuestadores.
 
 > La pregunta F2 fue reformulada para hacerla coherente con la forma en que debe ser llenada
 
@@ -565,7 +568,7 @@ se pregunta y cómo llega a su respuesta**]
 --
 
 <img src="input/img/tab1.png"
-     width="900px" height="400px"
+     width="900px" height="350px"
      style="position:absolute; left:10px; top:190px">
 ---
 ## Entrevistas Cognitivas: VII EME
@@ -577,7 +580,7 @@ se pregunta y cómo llega a su respuesta**]
 --
 
 <img src="input/img/sondeos.png"
-     width="900px" height="400px"
+     width="900px" height="350px"
      style="position:absolute; left:10px; top:190px">
      
 ---
@@ -615,13 +618,25 @@ se pregunta y cómo llega a su respuesta**]
 - Codificación de tres opciones: 
 
 a. Comprende la pregunta  
-b. si había una comprensión incompleta  
-c. no se comprendía. 
+b. Comprensión incompleta  
+c. No se comprende. 
 
 ---
 <img src="input/img/c7.png"
      width="900px" height="600px"
      style="position:absolute; left:10px; top: 0 px">
+---
+<img src="input/img/tab7.png"
+     width="900px" height="300px"
+     style="position:absolute; left:10px; top: 0 px">
+     
+---
+
+<img src="input/img/tab8.png"
+     width="900px" height="300px"
+     style="position:absolute; left:10px; top: 0 px">
+
+
 ---
 ## Pruebas de Usabilidad
 
@@ -674,17 +689,195 @@ modo y modalidad.
 - **Paso 4: Grupos focales recolectores**
 - **Paso 5: Analisis base de datos**
 ---
-## Prueba Piloto VII EME 
+## Pruebas Pilotos (Prueba de Campo Convencional)
 
-Evaluar el avance del levantamiento de datos a través de indicadores operativos y herramientas cualitativas,  
-especialmente a través de los distintos grupos de estudio correspondientes a la prueba piloto: 
+--
 
-- _Papel and Pencil Personal Interviewing_ (PAPI)
-- _Computer Assisted Personal Interviewing_ (CAPI)
-- _Computer Assisted Telefonic Interviewing_ (CATI).
+> La forma convencional de pretesteo es esencialmente un **ensayo general**, en el que los encuestadores  
+reciben el mismo tipo de entrenamiento que el de la encuesta principal y administran el cuestionario  
+de la misma forma en que lo harían durante la encuesta propiamente tal  
+(Presser, 2004 en Casas-Cordero, 2021)
+
+--
+
+> Después de que cada encuestador completa unas cuantas entrevistas, se puede tabular la distribución  
+de las respuestas y se realiza una **sesión de discusión** donde los encuestadores relatan sus experiencias  
+con el cuestionario y ofrecen su visión acerca de los problemas del cuestionario  
+(Idem)
 
 ---
-## *Interviewer Debriefings*
+## Pruebas Pilotos (Prueba de Campo Convencional)
+### Objetivos
+
+<img src="input/img/pcc.png"
+     width="900px" height="300px"
+     style="position:absolute; left:8px; top: 0 px">
+     
+---
+## Prueba Piloto VII EME 
+
+--
+
+### Objetivos Generales
+
+--
+         
+> Estimar el **impacto del cambio en el medio** (desde encuesta en papel a Dispositivo de Captura Móvil  
+(DMC)) y del **modo** de recolección (telefónico) de la encuesta, en los principales indicadores.
+
+--
+
+> Evaluar la **inclusión de nuevas preguntas** que tenían por objetivo medir el impacto de la pandemia  
+COVID – 19 en las personas microemprendedoras y sus negocios, conocer grados de digitalización y   
+actualizar la metodología de captura del tiempo dedicado al trabajo no remunerado (Idem)
+
+--
+
+
+La prueba se diseñó siguiendo una **lógica experimental**, construyendo grupos de estudio en función del  
+medio (vía por la cual se registra la información) y modo (formato por el cual se aplica la encuesta)
+
+--
+
+- **Medio:** DMC (Tablet) o Papel
+- **Modo:** Telefónico o Presencial
+
+---
+## Prueba Piloto VII EME 
+
+--
+
+### Construcción grupos de estudio
+
+--
+
+A partir de las combinaciones del modo y medio de recolección, se construyeron los grupos de estudio
+
+--
+
+- Presencial-Papel → _Papel and Pencil Personal Interviewing_ (PAPI)
+- Presencial-DMC → _Computer Assisted Personal Interviewing_ (CAPI)
+- Telefónica-DMC → _Computer Assisted Telefonic Interviewing_ (CATI)
+
+--
+
+En términos concretos...
+
+--
+
+Se comparan distintos indicadores entre grupos de estudio. Siendo PAPI el grupo de control,  
+se compara CAPI y CATI con este.
+
+---
+## Prueba Piloto VII EME
+
+--
+
+### Características de la recolección
+
+--
+
+- Muestra teórica de 1007 informantes
+
+--
+
+- Muestra objetivo de 600 informantes
+
+--
+
+- Muestra lograda de 554 informantes (102.5% PAPI, 94.5% CAPI y 80% CATI)
+
+--
+
+- Cobertura de Región Metropolitana
+
+--
+
+- 12 recolectores*
+
+--
+
+- Grupos de estudio asignados de forma probabilistica
+
+--
+
+- Enero y Febrero 2022
+---
+## Algunos análisis
+
+#### Indicadores principales
+
+--
+
+- Número de trabajadores por cuenta propia
+- Número de microemprendedores informales
+- Número de microemprendedores sin acceso a seguridad social
+
+--
+
+<img src="input/img/indicators.png"
+     width="700px" height="300px"
+     style="position:absolute; top: 0 px">
+
+---
+## Algunos análisis
+#### Indicadores Operativos
+
+--
+
+- Tasa de Rechazo (Total rechazadas/Total elegibles*100)
+
+--
+
+<img src="input/img/op-indicators.png"
+     width="700px" height="300px"
+     style="position:absolute; top: 0 px">
+     
+---
+## Algunos análisis
+#### Duración
+
+--
+
+- Duración del cuestionario
+
+--
+
+<img src="input/img/dur.png"
+     width="700px" height="400px"
+     style="position:absolute; top: 0 px">
+---
+## Algunos análisis
+#### Respuesta/No Respuesta
+
+--
+
+- Predictores de la Respuesta
+
+--
+
+<img src="input/img/no-resp.png"
+     width="700px" height="400px"
+     style="position:absolute; top: 0 px">
+
+---
+## Algunos aprendizajes y resultados
+
+--
+
+- No existen diferencias estadísticamente significativas en indicadores principales de la EME
+
+--
+
+- La aplicación por teléfono genera más desconfianza en los informantes
+
+--
+
+- Items que aumentan la duración del cuestionario
+
+--
+
+- Experiencia de uso del SuSo y otras visicitudes del terreno
 
 ---
 class: middle
@@ -698,8 +891,8 @@ class: middle
 
 --
 
-Profesionales encargados de supervisar directamente el momento de la recolección e indirectamente la  
-información recolectada. Las encuestas a supervisar pueden ser aleatorias o a solicitud de ciertos cargos  
+Profesionales encargados de **supervisar** directamente el momento de la recolección e indirectamente la  
+**información recolectada**. Las encuestas a supervisar pueden ser aleatorias o a solicitud de ciertos cargos  
 dentro del proceso de recolección.
 
 --
@@ -708,7 +901,7 @@ dentro del proceso de recolección.
 
 --
 
-Instrumento que asigna puntajes de suficiencia a casos de entrevista, en base a ciertos test de validación a  
+Instrumento que asigna puntajes de suficiencia a casos de entrevista, en base a ciertos **test de validación** a  
 preguntas importantes del cuestionario. Si el caso no cumple con un puntaje mínimo de suficiencia  
 es devuelto al recolector para que corrobore y/o recopile la información restante.
 
@@ -716,16 +909,55 @@ es devuelto al recolector para que corrobore y/o recopile la información restan
 
 --
 
-Observación no participante del proceso de aplicación del cuestionario de parte de integrantes del Equipo Técnico.  
-Busca evaluar, por un lado, que los recolectores estén siguiendo las directrices dadas en las capacitaciones y,  
-por otro, identificar dificultades en el proceso de respuesta de parte del informante. Los hallazgos del observador  
-se sistematizan y retroalimentan al equipo de recolección para que incorpore ciertas recomendaciones.
+**Observación no participante** del proceso de aplicación del cuestionario de parte de integrantes del Equipo  
+Técnico. Busca evaluar, por un lado, que los recolectores estén siguiendo las directrices dadas en las  
+capacitaciones y, por otro, identificar dificultades en el proceso de respuesta de parte del informante.  
+Los hallazgos del observador se sistematizan y retroalimentan al equipo de recolección para que incorpore  
+ciertas recomendaciones.
+
 ---
 class: middle
 
 # ¿Cómo se relacionan las prácticas de la
 # EME con el aseguramiento de la 
 # confiabilidad y la validez?
+
+---
+## Sintesis y Reflexiones
+
+--
+
+-  Existen múltiples técnicas para asegurar que la información sea válida y confiable
+
+--
+
+- Cada técnica contribuye a asegurar distintos estándares (contenido, cognitivo y usabilidad)
+
+--
+
+- Organismos como el INE no usan solo una técnica de evaluación, sino que muchas y en distintos tiempos.
+
+--
+
+- El protocolo de uso de técnicas está basado en estándares y lineamientos dentro de la institución
+
+--
+
+- La producción de datos de calidad (y oficiales en este caso) conlleva un inmenso uso de recursos  
+(dinero, tiempo y personal)
+
+--
+
+- Las herramientas de la sociología (y cursos como este) nos ayudan a aportar a la generación de estos datos  
+
+--
+
+- Los datos de calidad (y oficiales en este caso) tienen un impacto concreto en las decisiones
+
+--
+
+### ¡Nuestro trabajo como sociológos tiene un impacto!
+
 ---
 class: center, middle
 
