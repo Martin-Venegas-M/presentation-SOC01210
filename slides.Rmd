@@ -1,8 +1,8 @@
 ---
 title: "VII Encuesta Microemprendimiento (EME)"
 subtitle: "Diseño, pre-test y aseguramiento de calidad"
-author: "<br>Martín Venegas Márquez<br> <span style = 'font-size: 60%;'> Instituto Nacional de Estadísticas<br> Departamento de Estadísticas del Trabajo</span>"
-date: '<span style = "font-size: 50%;">8 de Septiembre 2022 </span>'
+author: "<br>Martín Venegas Márquez<br> <span style = 'font-size: 60%;'> Instituto Nacional de Estadísticas<br> Subdepartamento de Estadísticas Estructurales del Trabajo</span>"
+date: '<span style = "font-size: 50%;">22 de Septiembre 2022 </span>'
 output:
   xaringan::moon_reader:
     css: ["input/css/ine.css"]
@@ -26,6 +26,7 @@ knitr::opts_chunk$set(fig.width=9, fig.height=3.5, fig.retina=3,
   hiline = TRUE)
 ```
 
+
 ```{r packages, include = F}
 library(xaringanthemer)
 #remotes::install_github("gadenbuie/xaringanthemer")
@@ -36,52 +37,116 @@ library(xaringanthemer)
 
 --
 
-**1) Contexto:** ¿Qué es la Encuesta de Microempendimiento?
+**1) Contexto:** ¿Cómo el INE planifica y diseña sus productos estadísticos? 
 
 --
 
-**2) Enmarque:** ¿Cómo se relaciona esta encuesta con el contenido de este curso?  
+**2) Encuesta de Microemprendimiento (EME):**
+
+¿Qué hace la EME para diseñar y testar sus cuestionarios?
 
 --
 
-**3) Contenido:**
-
---
-
-→ ¿Qué hace la EME para diseñar y testar sus cuestionarios?
-  * Revisión de Expertos
-  * Pruebas QAS
-  * Entrevistas Cognitivas
-  * Pruebas de Usabilidad
-  * Piloto VII EME
-  
---
-
-→ ¿Qué hace la EME para asegurar la calidad de los datos durante la recolección?
-  * Supervisiones
-  * Grillas de Suficiencia
-  * Observaciones Técnicas
----
-# Contenido
-
-**1) Contexto:** ¿Qué es la Encuesta de Microempendimiento?
-
-**2) Enmarque:** ¿Cómo se relaciona esta encuesta con el contenido de este curso?  
-
-**3) Contenido:**  
-¿Qué hace la EME para diseñar y testar sus cuestionarios?  
-¿Qué hace la EME para asegurar la calidad de los datos durante la recolección?
-
---
-
-**4) Reflexiones finales:**  
+**3) Conclusiones:**  
 ¿Cómo se relacionan las prácticas de la ENE con el aseguramiento de la confiabilidad y la validez?
 
 ---
+# .large[ ¿Cómo el INE planifica y diseña sus  
+productos estadísticos?]
+
+--
+
+## _Generic Statistical Process Model (GSBPM)_
+
+
+--
+
+> El GSBPM describe y define el conjunto de procesos necesarios para producir estadísticas  
+oficiales. Proporciona un marco estándar y una terminología armonizada para ayudar a las  
+organizaciones estadísticas a modernizar sus procesos de producción estadística, así como  
+a compartir métodos y componentes (CEPE, 2019, p.3).
+
+--
+
+
+### .large[En otras palabras: es un marco general para la producción   
+de estadísticas oficiales]
+---
+# GSBPM
+## Algunas caractarísticas...
+
+--
+
+- En 2019 el INE adopta este marco como guía para la producción de sus encuestas
+
+--
+
+- Esto implica que la planificación y diseño de los productos sigue una lógica de procesos
+
+--
+
+> Un proceso estadístico es un conjunto de actividades y tareas relacionadas y estructuradas  
+para convertir los datos de entrada en información estadística.
+
+--
+
+## Procesos
+
+--
+
+<img src="input/img/gsbpm.png"
+     width="990px" height="100px"
+     style="position:absolute; left:0px; top:500px">
+
+---
+
+<img src="input/img/gsbpm2.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+
+
+
+---
+<img src="input/img/gsbpm2-1.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+
+---
+
+<img src="input/img/gsbpm2-2.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+
+---
+
+<img src="input/img/gsbpm2-3.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+---
+
+<img src="input/img/gsbpm2-4.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+---
+
+<img src="input/img/gsbpm2-5.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+---
+
+<img src="input/img/gsbpm2-6.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+---
+
+<img src="input/img/gsbpm2-7.png"
+     width="2000px" height="680px"
+     style="position:absolute; left:0px; top:0px">
+---
 class: middle
 
-# ¿Qué es la Encuesta de 
-# Microemprendimiento (EME)?
+# .large[Encuesta de Microemprendimiento  
+(EME)]
 
 ---
 ## Encuesta Microemprendimiento
@@ -135,112 +200,6 @@ y su evolución en el tiempo]
 ![](input/img/objs.png)
 
 ---
-## Encuesta Microemprendimiento
-
---
-
-### Algunos aspectos técnicos de la versión VI...
-
---
-
-- **Población Objetivo:**
-
---
-
-> Trabajadores por **cuenta propia** o personas **empleadoras** dueñas de una microempresa con **hasta 10  
-trabajadores y/o trabajadoras** (incluyendo a la o el informante dueño de la unidad económica),  
-denominadas en su conjunto como personas microemprendedoras, que residen en viviendas particulares  
-ocupadas dentro del territorio nacional
-
---
-
-- **Fuente de Información:**
-
---
-
-> Encuesta a hogares aplicada al informante directo
-
----
-## Encuesta Microemprendimiento
-
-### Algunos aspectos técnicos de la versión VI...
-
---
-
-- **Diseño Muestral:**
-
---
-
-> <ins>Diseño muestral bifásico:</ins> en la primera fase se identificaron las viviendas donde reside al menos un  
-trabajador independiente, a través de la Encuesta Nacional de Empleo (ENE). Luego, en la segunda fase,  
-se realiza una encuesta a trabajadores por cuenta propia y empleadores dueños de una unidad económica  
-con hasta 10 trabajadores (incluyendo al dueño de la unidad económica).
-
---
-
-> <ins>Período de referencia:</ins> se obtiene de la muestra: trimestre marzo-mayo de 2019  
-de la Encuesta Nacional de Empleo.
-
---
-
-> <ins>Representatividad a nivel regional y nacional.</ins> Error muestral teórico: 1,3% para el estimador principal  
-(proporción de personas que trabajan por cuenta propia sobre el total de microemprendedores)
-
----
-## Encuesta Microemprendimiento
-
-### Algunos aspectos técnicos de la versión VI...
-
-- **Tamaño de la muestra:** El tamaño de la muestra teórica es de 8.469 viviendas (9.227
-informantes en total).
-
---
-
-- **Período de levantamiento:** La encuesta fue levantada entre la segunda semana de mayo  
-hasta la primera de agosto de 2019 (3 meses).
-
---
-
-- **Cobertura geográfica:** Cobertura del área urbana y rural a nivel nacional.
-
---
-
-- **Modo de aplicación:** Presencial, entrevista personal con cuestionario en papel
-
---
-
-- **Duración promedio:** 28,4 minutos por cuestionario.
-
---
-
-- **Cobertura temática:** Encuesta compuesta por 12 módulos, con 97 preguntas en total.
-
----
-class: middle
-
-# ¿Cómo se relaciona esta encuesta con el contenido de este curso?
----
-## Porque...
-
---
-
-> ###.large[La EME es un ejemplo de una encuesta que debe  
-pasar por distintos procesos de pre-testeo y aseguramiento  
-de calidad. Especialmente considerando que...]
-
---
-
-- Busca generar datos inferenciales (es una encuesta probabilistica)
-
---
-
-- Tiene los recursos necesarios
-
---
-
-- Busca generar estadísticas **oficiales** del país
-
----
 class: middle
 
 # ¿Qué hace la EME para diseñar y testear 
@@ -248,7 +207,7 @@ class: middle
 
 ---
 
-## Un paso previo: ¿Qué buscamos con el testeo de cuestionarios
+## Un paso previo: ¿Qué buscamos con el testeo de cuestionarios?
 
 --
 
@@ -256,23 +215,21 @@ El objetivo del pretesteo de cuestionarios es desarrollar instrumentos que sean:
 
 --
 
-1) Confiables (*reliable*) 
+**1) Confiables** (*reliable*) → Consistencia entre mediciones
 
 --
 
-2) Válidos (*valid*)  
+**2) Válidos** (*valid*) → Las inferencias sobre los puntajes (ej. Indice de criminalidad) tienen sentido  
+con la evidencia acumulada
 
 --
 
-3) Estándar (comparables) 
+**3) Estándar** (comparables)
 
 --
 
-4) Fáciles de administrar
+**4) Fáciles de administrar***
 
---
-
-.left[.small[Fuente: Casas-Cordero (2021)]]
 
 ---
 
@@ -308,10 +265,6 @@ El objetivo del pretesteo de cuestionarios es desarrollar instrumentos que sean:
 --
 
 7) Falla en seguir instrucciones.
-
---
-
-.left[.small[Fuente: Casas-Cordero (2021)]]
 
 ---
 ## Estándares para la evaluación de cuestionarios
@@ -350,167 +303,65 @@ en forma fácil y de la forma en que se definió?
 ---
 ## Estándares y técnicas de evaluación
 
---
+Distintos estándares pueden ser abordados por una misma técnica de evaluación, por ejemplo:  
 
-![](input/img/chart.png)
-.left[.small[Fuente: Casas-Cordero (2021)]]
+.pull-left[#### Estándar Contenido
+
+- Revisión de Expertos → las preguntas recogen la información requerida para los análisis
+
+- Entrevistas Cognitivas → las preguntas recogen la información que se busca
+]
+
+.pull-rigt[#### Estándar Cognitivo
+- Revisión de Expertos → identifica términos  
+ambiguos, tareas complejas
+
+- Entrevistas Cognitivas → los entrevistados pueden  
+entender y responder las preguntas
+]
+
+.pull-left[#### Estándar de Usabilidad
+
+- Revisión de Expertos → identifican preguntas  
+que podrían causar problemas a  
+entrevistados o encuestadores.
+
+- Pruebas Piloto → evalúa como funciona  
+el cuestionario en la práctica
+]
 ---
-## Estándares y técnicas de evaluación
+# Flujo EME
 
---
-
-![](input/img/chart2.png)
-.left[.small[Fuente: Casas-Cordero (2021)]]
+![](input/img/diag1.png)
 ---
-## Revisión de Expertos
+# Revisión de Expertos
 
---
+![](input/img/diag1-2.png)
 
-### .large[Expertos en la temática y en metodología de encuestas  
-revisan una versión borrador del cuestionario.]
+- Se reúnen expertos del INE y del Ministerio de Economía para revisar el cuestionario de la  
+versión anterior de la EME.
 
---
+- Se toma como antecedentes los hallazgos y dificultades de la versión pasada  
 
-Esto implica revisar...
-
---
-
-- El fraseo de las preguntas
-
---
-
-- La estructura de las preguntas
-
---
-
-- Las alternativas de respuesta
-
---
-
-- El orden de las preguntas
-
---
-
-- Instrucciones a los recolectores para aplicar el cuerstionario
-
---
-
-- Las reglas respecto a los flujos del cuestionario
-
+- Se proponen cambios al cuestionario y se discuten con el equipo técnico
 ---
-## Pruebas QAS
+# Pruebas QAS (_Question Appraisal System_)
 
---
+![](input/img/diag1-3.png)
 
-### .large[_Question Appraisal System (QAS)_ es un instrumento creado  
-por Willis & Lesler (1999) para evaluar de forma sistemática  
-las preguntas y respuestas de un cuestionario]
+- Instrumento tipo plantilla que permite sistematizar la opinión de varios expertos  
+en torno a los problemas en ciertas preguntas del cuestionario
 
---
+- Se testearon 31 de las 97 preguntas del cuestionario (32%) a dos analistas expertos
 
-Algunas características:
-
---
-
-- Permite recoger las opiniones de distintos expertos de forma sistemática
-
---
-
-- Relativamente fácil de usar
-
---
-
-- Está pre-codificado y cuanta con un algoritmo de clasificación automática.
-
---
-
-- Bajo costo
-
----
-## Pruebas QAS
-
---
-
-### .large[Está codificado en torno a problemas comunes que se pueden  
-detectar de un cuestionario. Por ejemplo:]
-
---
-
-1) Sintaxis compleja
-
---
-
-2) Excesivamente demandante para la memoria
-
---
-
-3) Frases vagas o ambiguas
-
---
-
-4) Concepto técnico poco familiar
-
---
-
-5) Concepto vago o ambiguo
-
---
-
-6) Supuesto impreciso
-
----
-
-## Pruebas QAS
-
-### .large[Está codificado en torno a problemas comunes que se pueden  
-detectar de un cuestionario. Por ejemplo:]
-
---
-
-7) Categorías de la pregunta poco claras
-
---
-
-8) Combinación de dos categorías de respuesta
-
---
-
-9) Desajuste entre pregunta y opciones de respuesta
-
---
-
-10) Información difícil de recopilar (sensible)
-
---
-
-11) Poco probable que el informante sepa la respuesta
-
-
---
-
-12) Proposito de la pregunta poco claro
-
----
-## Pruebas QAS: EME
-
---
-
-- Instrumento aplicado a dos analistas expertos  
-
---
-
-- Se testearon 31 de las 97 preguntas del cuestionario (32%)  
-
---
-
-- Se priorizaron modulos y preguntas que en versiones pasadas habían presentado inconvenientes en   
+- Se priorizaron módulos y preguntas que en versiones pasadas habían presentado inconvenientes en   
 su forma o contenido  
 
---
-
 - Los resultados fueron principalmente relacionados a las formas de aplicación
+---
+# Pruebas QAS (_Question Appraisal System_)
 
---
+![](input/img/diag1-3.png)
 
 #### Ejemplos de recomendaciones:
 
@@ -520,77 +371,36 @@ exclusivamente para cuando se trate de instrucciones para las y los encuestadore
 > La pregunta F2 fue reformulada para hacerla coherente con la forma en que debe ser llenada
 
 ---
-## Entrevistas Cognitivas
+# Entrevistas Cognitivas
 
---
+![](input/img/diag1-4.png)
 
-> Instrumento que permite identificar distintos problemas que pueden presentar las y los informantes  
-al momento de responder una pregunta, principalmente relacionados a la **comprensión, recuperación  
-de información, estimación o cálculo**, entre otras. La identificación de estos hallazgos, entrega insumos  
-útiles para realizar modificaciones en las preguntas con el objetivo de generar información estadística  
-valida y confiable (INE, 2013, p.3)  
+- Instrumento que permite identificar dificultades en el proceso de respeusta del informante,  
+indagando si comprenden las preguintas y cómo formulan sus respuestas
 
---
-
-
-> Son aquellas donde los encuestadores administran preguntas borradores en entrevistas individualizadas,  
-indagando como los informantes comprenden las preguntas y formulan sus respuestas  
-(Groves, 2009, p.260)
-
---
-
-Dicho de otra forma:
-
---
-
-###.large[**Se indaga en el proceso de respuesta del informante,  
-preguntandole (de forma indirecta) si comprende lo que  
-se pregunta y cómo llega a su respuesta**]
+Priorización Preguntas → Elaboración Pauta → Muestreo y Reclutamiento → Ejecución y Codificación
 
 ---
-## Entrevistas Cognitivas
+# Entrevistas Cognitivas
 
---
-
-<img src="input/img/seq2.png"
-     width="900px" height="400px"
-     style="position:absolute; left:10px; top:130px">
-     
-.small[Fuente: Groves (2004) en INE (2013)]
-
----
-## Entrevistas Cognitivas: VII EME
-
---
-
-**Paso 1: Priorización de módulos y preguntas (cuestionario muy extenso)**
-
---
+**Priorización Preguntas**
 
 <img src="input/img/tab1.png"
      width="900px" height="350px"
      style="position:absolute; left:10px; top:190px">
 ---
-## Entrevistas Cognitivas: VII EME
+# Entrevistas Cognitivas
 
---
-
-**Paso 2: Elaboración de Pauta**
-
---
+**Elaboración Pauta**
 
 <img src="input/img/sondeos.png"
      width="900px" height="350px"
      style="position:absolute; left:10px; top:190px">
      
 ---
-## Entrevistas Cognitivas: VII EME
+# Entrevistas Cognitivas
 
---
-
-**Paso 3: Perfiles a entrevistar**
-
---
+**Muestreo y Reclutamiento**
 
 - Muestra (bola de nieve): 12 personas
 
@@ -601,17 +411,12 @@ se pregunta y cómo llega a su respuesta**]
      style="position:absolute; left:10px; top: 0 px">
 
 ---
-## Entrevistas Cognitivas: VII EME
+# Entrevistas Cognitivas
 
---
 
-**Paso 4: Reclutamiento**
+**Ejecución y Codificación**
 
-- Bola de nieve a partir de los análistas del equipo y practicantes  
-
---
-
-**Paso 5: Transcripción y codificación**
+- Ejecución por experto en encuestas en ambiente controlado
 
 - Transcripción textual de .mp4 (Zoom) a Excel
 
@@ -636,58 +441,19 @@ c. No se comprende.
      width="900px" height="300px"
      style="position:absolute; left:10px; top: 0 px">
 
-
 ---
-## Pruebas de Usabilidad
 
---
+# Pruebas Usabilidad
 
-###.large[Poner a prueba la aplicación del cuestionario a un grupo  
-pequeño de la población de estudio, poniendo foco en la  
-experiencia de aplicar y responder el cuestionario.]
+![](input/img/diag1-5.png)
 
---
 
-Se tiene en consideración aspectos como: 
+- Poner a prueba la aplicación del cuestionario a un grupo pequeño de la población  
+de estudio, poniendo foco en la experiencia de aplicar y responder el cuestionario
 
---
+- 2 pruebas de usabilidad para poner a prueba el uso de nueva plataforma digital (Survey Solutions).
 
-- Modo de aplicación del cuestionario (nuevas herramientas tecnológicas)
-
---
-
-- Duración
-
---
-
-- Flujos y filtros correctos
-
----
-## Pruebas de Usabilidad: EME
-
---
-
-### Características
-
-<ins>Objetivo:</ins> Evaluar la aplicación del cuestionario en la plataforma _Survey Solutions_ (SuSo) en terminos de flujo,  
-modo y modalidad.
-
-<ins>Recolectores:</ins> 11 profesionales del INE
-
-<ins>Muestra:</ins> 40 microemprendedores(20 por modalidad) elegidos por bola de nieve.
-
----
-### Pruebas de Usabilidad: EME
-
---
-
-### Puntos importantes para la aplicación
-
-- **Paso 1: Diseño y capacitación de protocolo de la técnica**
-- **Paso 2: Aplicación entrevistas**
-- **Paso 3: Sistematización hallazgos recolectores**
-- **Paso 4: Grupos focales recolectores**
-- **Paso 5: Analisis base de datos**
+- 11 recolectores, 40 microemprendedores reclutados por bola de nieve
 ---
 ## Pruebas Pilotos (Prueba de Campo Convencional)
 
@@ -805,7 +571,7 @@ se compara CAPI y CATI con este.
 ---
 ## Algunos análisis
 
-#### Indicadores principales
+#### Indicadores Principales
 
 --
 
@@ -869,51 +635,16 @@ se compara CAPI y CATI con este.
 
 --
 
-- La aplicación por teléfono genera más desconfianza en los informantes
+- La aplicación por teléfono genera más desconfianza en los informantes, pero ahorra recursos  
+de tiempo, dinero y capital humano
 
 --
 
-- Items que aumentan la duración del cuestionario
+- Items que aumentan la duración del cuestionario o items con poca varianza
 
 --
 
 - Experiencia de uso del SuSo y otras visicitudes del terreno
-
----
-class: middle
-
-# ¿Qué hace la EME para asegurar la 
-# calidad de los datos durante la 
-# recolección?
-
----
-## Supervisiones: 
-
---
-
-Profesionales encargados de **supervisar** directamente el momento de la recolección e indirectamente la  
-**información recolectada**. Las encuestas a supervisar pueden ser aleatorias o a solicitud de ciertos cargos  
-dentro del proceso de recolección.
-
---
-
-## Grilla de Suficiencia
-
---
-
-Instrumento que asigna puntajes de suficiencia a casos de entrevista, en base a ciertos **test de validación** a  
-preguntas importantes del cuestionario. Si el caso no cumple con un puntaje mínimo de suficiencia  
-es devuelto al recolector para que corrobore y/o recopile la información restante.
-
-## Observaciones Técnicas
-
---
-
-**Observación no participante** del proceso de aplicación del cuestionario de parte de integrantes del Equipo  
-Técnico. Busca evaluar, por un lado, que los recolectores estén siguiendo las directrices dadas en las  
-capacitaciones y, por otro, identificar dificultades en el proceso de respuesta de parte del informante.  
-Los hallazgos del observador se sistematizan y retroalimentan al equipo de recolección para que incorpore  
-ciertas recomendaciones.
 
 ---
 class: middle
@@ -923,7 +654,25 @@ class: middle
 # confiabilidad y la validez?
 
 ---
-## Sintesis y Reflexiones
+## Validez
+
+- Que el puntaje de un ítem no represente lo que según la evidencia debería representar   
+(o dicho de la forma tradicional, que no mida lo que debería medir) puede ocurrir por   
+muchas razones
+
+- La principal de esas razones se puede dar por problemas en la construcción de las preguntas,  
+por ello se utilizan **múltiples y distintas técnicas de evaluación** para diseñar un cuestionario
+
+- Pese a la rigurosidad, siempre pueden ocurrir situaciones imprevistas. Por lo que  
+también existen formas de asegurar la validez de los datos durante la recolección.
+
+## Confiabilidad
+
+- Aplicas distintas técnicas en distintos tiempos permite tener un panorama de la consistencia  
+de algunas mediciones
+
+---
+# Sintesis
 
 --
 
