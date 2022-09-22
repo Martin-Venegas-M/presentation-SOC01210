@@ -1,6 +1,7 @@
 ---
-title: "Presentación"
+title: "Presentación para SOC01210 - Encuestas Sociales: Diseño, análisis y reporte"
 ---
 ## Descripción
-<br>o</br>  
+<br>El presente sitio contiene la presentación para el ramo "Encuestas Sociales
+Diseño, análisis y reporte" a cargo del profesor Juan Carlos Castillo</br>  
 
